@@ -22,21 +22,34 @@
                                 </div>
                                 <div class="col">
                                     <!-- Text content -->
-                                    <div class="container">
+
+                                    <div class="container-fluid">
                                         <div class="row justify-content-end">
                                             <div class="col-auto">
-                                                <h6 class="">OPD NO:</h6>
-                                            </div>
-                                            <div class="col-auto">
-                                                <div class="border border-dark text-center mx-auto">
-                                                    <h6 class="mt-0 mb-0 mx-2">123456</h6>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-auto">
+                                                            <h6 class="mt-0 mb-0">OPD NO:</h6>
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <div class="border border-dark text-center mx-auto">
+                                                                <h6 class="mt-0 mb-0 mx-2">123456</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row justify-content-start">
                                             <div class="col-auto">
-                                                <div class="border border-dark text-center mx-auto">
-                                                    <h6 class="mt-0 mb-0 mx-2">Validity: 30 Days</h6>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-auto">
+                                                            <div class="border border-dark text-center mx-auto">
+                                                                <h6 class="mt-0 mb-0 mx-2">Validity: 30 Days</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
