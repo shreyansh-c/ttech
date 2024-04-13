@@ -76,3 +76,23 @@ $(document).ready(function () {
         return Math.floor(Math.random() * 1000000) + 1; // Generates a random number between 1 and 1,000,000
     }
 });
+
+$(document).ready(function () {
+    $('[data-kt-stepper-action="previous"]').click(function () {
+        showAlert('Back');
+    });
+    $('[data-kt-stepper-action="next"]').click(function () {
+        showAlert('Continue');
+    });
+
+    function showAlert(action) {
+        alert("You clicked " + action);
+    }
+});
+
+$(document).ready(function () {
+    $('select[data-control="select2"]').change(function () {
+        var selectedCountry = $(this).val();
+        alert(selectedCountry);
+    });
+});
