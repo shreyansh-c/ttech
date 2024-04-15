@@ -8,10 +8,7 @@ $(document).ready(function () {
         $('#kt_modal_2').modal('show');
         //alert();
     });
-    
-});
 
-$(document).ready(function () {
     // Get the modal element
     var modal = $('#kt_modal_2');
 
@@ -43,10 +40,7 @@ $(document).ready(function () {
             prevStep.addClass('current');
         }
     });
-});
 
-
-$(document).ready(function () {
     $('#pay_patienttype').change(function () {
         var selectedValue = $(this).val();
         var charges = {
@@ -56,28 +50,23 @@ $(document).ready(function () {
             VIP: 'Free',
             VVIP: 'Free'
         };
-     
+
         $('#charge_display').html('Charge: ' + charges[selectedValue]);
     });
 
-});
-
-$(document).ready(function () {
     // Generate random numbers
     var opdNumber = generateRandomNumber();
     var uhidNumber = generateRandomNumber();
 
     // Set random numbers to the respective elements
     $('#opd_number').html('OPD Number: ' + opdNumber);
-    $('#uhid_number').html('UHID Number: ' +uhidNumber);
+    $('#uhid_number').html('UHID Number: ' + uhidNumber);
 
     // Function to generate a random number
     function generateRandomNumber() {
         return Math.floor(Math.random() * 1000000) + 1; // Generates a random number between 1 and 1,000,000
     }
-});
 
-$(document).ready(function () {
     $('[data-kt-stepper-action="previous"]').click(function () {
         showAlert('Back');
     });
@@ -88,13 +77,23 @@ $(document).ready(function () {
     function showAlert(action) {
         alert("You clicked " + action);
     }
-});
 
-$(document).ready(function () {
     $('select[data-control="select2"]').change(function () {
         var selectedCountry = $(this).val();
         alert(selectedCountry);
     });
-});
 
-//this is an empty comment
+    $('#printBtn').click(function () {
+        var divToPrint = $('#patientcard_form').html();
+        var newWin = window.open('', 'Print-Window');
+
+        newWin.document.open();
+        newWin.document.write('<html><head><link rel="stylesheet" type="text/css" href="/TTech/assets/plugins/global/plugins.bundle.css"><link rel="stylesheet" type="text/css" href="/TTech/assets/css/style.bundle.css"></head><body>' + divToPrint + '</body></html>');
+        newWin.document.close();
+
+        setTimeout(function () {
+            newWin.print();
+        }, 20);
+    });
+
+});
