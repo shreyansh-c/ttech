@@ -26,7 +26,7 @@
             <!--end::Form-->
 
             <!--begin::Button Container-->
-            <div class="d-flex flex-row flex-lg-row">
+            <div class="d-flex flex-row flex-lg-row ">
                 <!--begin::Button-->
                 <button type="button" class="btn btn-success mb-3 mb-lg-0 me-lg-3" id="searchButton">Search</button>
                 <!--end::Button-->
@@ -45,17 +45,15 @@
             <!--end::Button Container-->
         </div>
         <!--end::Main wrapper-->
-
         <!--begin::Advanced Search Fields-->
-
         <div class="container mt-10 mb-10 bg-gray-300 rounded">
-            
+
             <div class="d-flex justify-content-center">
 
-                <div class=" mt-10" id="advancedSearchFields" style="display: none;">
+                <div class=" mt-10 mx-5" id="advancedSearchFields" style="display: none;">
                     <label class="mb-10 fw-bold fs-4">Enter Details To Advance Search</label>
                     <!--begin::Input group-->
-                    <div class="row mb-4">
+                    <div class="row mb-10">
                         <div class="col-md-6 mb-4">
                             <!--begin::Label-->
                             <label class="required fs-5 fw-bold mb-2">Patient Name</label>
@@ -139,7 +137,6 @@
                 </div>
             </div>
         </div>
-
         <!--end::Advanced Search Fields-->
     </div>
     <%--new registration--%>
@@ -840,9 +837,47 @@
             </div>
         </div>
     </div>
-
     <%-- new registration end--%>
 
+
+    <%--start already registered--%>
+    <div class="card mx-10">
+        <table class="table mx-10 mt-5">
+            <tbody>
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td>Rohan Raj Anand</td>
+                    <td><strong>Date:</strong></td>
+                    <td>13/04/2024</td>
+                </tr>
+                <tr>
+                    <td><strong>Father's Name:</strong></td>
+                    <td>Shishir Srivastava</td>
+                    <td><strong>Age:</strong></td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td><strong>Address:</strong></td>
+                    <td>Kareli, Prayagraj</td>
+                    <td><strong>Sex:</strong></td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td><strong>Phone no:</strong></td>
+                    <td>8364573234</td>
+                    <td><strong>Marital Status:</strong></td>
+                    <td>Unmarried</td>
+                </tr>
+                <tr>
+                    <td><strong>PID:</strong></td>
+                    <td>ROH8364</td>
+                    <td><strong>UHID:</strong></td>
+                    <td>32983ROH1404</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <%--end already registered--%>
     <script src="Patient_registration.js"></script>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MainContentFooter" runat="server">
