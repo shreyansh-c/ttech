@@ -806,6 +806,9 @@
                                 <!--end::Input group-->
                             </div>
                         </div>
+                        <div class="text-center mt-5">
+                            <button class="btn btn-primary" id="printBtn">Print</button>
+                        </div>
                     </div>
                     <%--End Step 4 Content--%>
                 </div>
