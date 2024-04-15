@@ -48,9 +48,12 @@
 
         <!--begin::Advanced Search Fields-->
 
-        <div class="container mt-5 mb-5">
+        <div class="container mt-10 mb-10 bg-gray-300 rounded">
+            
             <div class="d-flex justify-content-center">
-                <div id="advancedSearchFields" style="display: none;">
+
+                <div class=" mt-10" id="advancedSearchFields" style="display: none;">
+                    <label class="mb-10 fw-bold fs-4">Enter Details To Advance Search</label>
                     <!--begin::Input group-->
                     <div class="row mb-4">
                         <div class="col-md-6 mb-4">
@@ -806,9 +809,6 @@
                                 <!--end::Input group-->
                             </div>
                         </div>
-                        <div class="text-center mt-5">
-                            <button class="btn btn-primary" id="printBtn">Print</button>
-                        </div>
                     </div>
                     <%--End Step 4 Content--%>
                 </div>
@@ -820,7 +820,7 @@
 
 
 
-            <%--dsfsfd--%>
+
 
             <!-- End Form -->
 
