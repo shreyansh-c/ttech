@@ -46,8 +46,7 @@
         </div>
         <!--end::Main wrapper-->
         <!--begin::Advanced Search Fields-->
-        <div class="container mt-10 mb-10 bg-gray-300 rounded">
-
+        <div class="card mx-5 mt-10 mb-10 bg-gray-300 rounded">
             <div class="d-flex justify-content-center">
 
                 <div class=" mt-10 mx-5" id="advancedSearchFields" style="display: none;">
@@ -846,7 +845,8 @@
 
     <%--start already registered--%>
     <div class="card mx-10">
-        <table class="table mx-10 mt-5">
+        <label class="mt-10 mb-10 fw-bold fs-4 px-10">Patient Details</label>
+        <table class="table mx-10 mt-5 mb-10">
             <tbody>
                 <tr>
                     <td><strong>Name:</strong></td>
@@ -880,7 +880,11 @@
                 </tr>
             </tbody>
         </table>
+        <div class="d-flex justify-content-center mb-5">
+            <button type="button" class="btn btn-primary">Next</button>
+        </div>
     </div>
+
     <%--end already registered--%>
    <%-- <script src="Patient_registration.js"></script>--%>
 </asp:Content>
