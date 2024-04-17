@@ -2397,6 +2397,7 @@
     <Content Include="TTech\Patient_asses\Tooth.js" />
     <Content Include="TTech\Patient_asses\card.aspx" />
     <Content Include="TTech\Patient_reg\HtmlPage1.html" />
+    <Content Include="TTech\Patient_reg\Patient_registration.asmx" />
     <Content Include="TTech\Patient_reg\Patient_registration.aspx" />
     <Content Include="TTech\Patient_reg\Patient_registration.js" />
     <Content Include="ViewSwitcher.ascx" />
@@ -2747,6 +2748,10 @@
     </Compile>
     <Compile Include="TTech\Patient_asses\card.aspx.designer.cs">
       <DependentUpon>card.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TTech\Patient_reg\Patient_registration.asmx.cs">
+      <DependentUpon>Patient_registration.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="TTech\Patient_reg\Patient_registration.aspx.cs">
       <DependentUpon>Patient_registration.aspx</DependentUpon>

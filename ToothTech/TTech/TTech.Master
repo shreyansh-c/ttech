@@ -31,9 +31,8 @@
 <body id="kt_body" class="header-tablet-and-mobile-fixed aside-enabled">
     <form id="form1" runat="server">
         <asp:ScriptManager runat="server">
-            <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Framework Scripts--%>
+          <%--  <Scripts>
+              
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
                 <asp:ScriptReference Name="bootstrap" />
@@ -46,8 +45,8 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
-                <%--Site Scripts--%>
-            </Scripts>
+            
+            </Scripts>--%>
         </asp:ScriptManager>
         <!--begin::Main-->
         <!--begin::Root-->
@@ -3021,7 +3020,7 @@
                                     </div>
                                     <!--end::Action wrapper-->
                                     <!--begin::Action wrapper-->
-                                    
+
                                     <!--end::Action wrapper-->
                                     <!--begin::Theme mode-->
                                     <div class="d-flex align-items-center">
@@ -3047,7 +3046,7 @@
                     </div>
                     <!--end::Content-->
                     <!--begin::Footer-->
-                    <asp:ContentPlaceHolder ID="MainContentFooter" runat="server"></asp:ContentPlaceHolder>
+
                     <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
                         <!--begin::Container-->
                         <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
@@ -6134,6 +6133,8 @@
         <script src="/TTech/assets/js/custom/utilities/modals/users-search.js"></script>
         <!--end::Page Custom Javascript-->
         <!--end::Javascript-->
+
+        <asp:ContentPlaceHolder ID="MainContentFooter" runat="server"></asp:ContentPlaceHolder>
     </form>
 </body>
 <!--end::Body-->

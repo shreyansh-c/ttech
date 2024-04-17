@@ -228,46 +228,48 @@
                             <!-- Registration Form Fields -->
                             <div id="PatientRegistrationFields">
                                 <!-- Begin Input group -->
-                                <div class="row mb-4">
+                                <div class="fv-row">
+
+                                    <div class="row mb-4">
                                     <!-- Patient Name -->
                                     <div class="col-md-6 mb-4">
                                         <label class="required fs-5 fw-bold mb-2">Patient Name</label>
-                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Patient's Name" name="Patient_Name" id="reg_Patientname" />
+                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Patient's Name" name="Patient_Name1" id="reg_Patientname"/>
                                     </div>
                                     <!-- End Patient Name -->
 
                                     <!-- Age -->
                                     <div class="col-md-6 mb-4">
                                         <label class="fs-5 fw-bold mb-2">Age</label>
-                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Patient's Age" name="Patient_Age" id="reg_Patientage" />
+                                        <input type="number" class="form-control form-control-solid" placeholder="Enter Patient's Age" name="Patient_Age1" id="reg_Patientage" />
                                     </div>
                                     <!-- End Age -->
 
                                     <!-- Father's Name -->
                                     <div class="col-md-6 mb-4">
                                         <label class="required fs-5 fw-bold mb-2">Father's Name</label>
-                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Father's Name" name="father_Name" id="reg_FatherName" />
+                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Father's Name" name="father_Name1" id="reg_FatherName" />
                                     </div>
                                     <!-- End Father's Name -->
 
                                     <!-- Address -->
                                     <div class="col-md-6 mb-4">
                                         <label class="required fs-5 fw-bold mb-2">Address</label>
-                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Address" name="Address" id="reg_Address" />
+                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Address" name="Address1" id="reg_Address" />
                                     </div>
                                     <!-- End Address -->
 
                                     <!-- Date of Birth -->
-                                    <div class="col-md-6 mb-4">
+                                    <%--<div class="col-md-6 mb-4">
                                         <label class="required fs-5 fw-bold mb-2">Date of Birth</label>
-                                        <input type="date" class="form-control form-control-solid" name="DateOfBirth" id="reg_DateOfBirth" />
-                                    </div>
+                                        <input type="date" class="form-control form-control-solid" name="DateOfBirth1" id="reg_DateOfBirth" />
+                                    </div>--%>
                                     <!-- End Date of Birth -->
 
                                     <!-- Mobile Number -->
                                     <div class="col-md-6 mb-4">
                                         <label class="required fs-5 fw-bold mb-2">Mobile Number</label>
-                                        <input type="text" class="form-control form-control-solid" placeholder="Enter Mobile Number" name="Mobile_Number" id="reg_MobileNumber" />
+                                        <input type="number" class="form-control form-control-solid" placeholder="Enter Mobile Number" name="Mobile_Number1" id="reg_MobileNumber" />
                                     </div>
                                     <!-- End Mobile Number -->
 
@@ -276,17 +278,17 @@
                                         <label class="required fs-5 fw-bold mb-2" id="reg_Gender">Gender</label>
                                         <div class="nav-group nav-group-fluid">
                                             <label>
-                                                <input type="radio" class="btn-check" name="gender" value="M">
+                                                <input type="radio" class="btn-check" name="gender1" value="M">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">M</span>
                                             </label>
                                             <!-- End Option -->
                                             <label>
-                                                <input type="radio" class="btn-check" name="gender" value="F">
+                                                <input type="radio" class="btn-check" name="gender1" value="F">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">F</span>
                                             </label>
                                             <!-- End Option -->
                                             <label>
-                                                <input type="radio" class="btn-check" name="gender" value="O">
+                                                <input type="radio" class="btn-check" name="gender1" value="O">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">O</span>
                                             </label>
                                             <!-- End Option -->
@@ -299,20 +301,20 @@
                                         <label class="required fs-5 fw-bold mb-2" id="reg_MartialStatus">Marital Status</label>
                                         <div class="nav-group nav-group-fluid">
                                             <label>
-                                                <input type="radio" class="btn-check" name="mststus" value="Married">
+                                                <input type="radio" class="btn-check" name="mststus1" value="Married">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">Married</span>
                                             </label>
                                             <!-- End Option -->
                                             <label>
-                                                <input type="radio" class="btn-check" name="mststus" value="Unmarried">
+                                                <input type="radio" class="btn-check" name="mststus1" value="Unmarried">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">Unmarried</span>
                                             </label>
                                             <label>
-                                                <input type="radio" class="btn-check" name="mststus" value="Divorced">
+                                                <input type="radio" class="btn-check" name="mststus1" value="Divorced">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">Divorced</span>
                                             </label>
                                             <label>
-                                                <input type="radio" class="btn-check" name="mststus" value="Widowed">
+                                                <input type="radio" class="btn-check" name="mststus1" value="Widowed">
                                                 <span class="btn btn-sm btn-color-muted btn-active btn-active-primary fw-bolder px-4">Widowed</span>
                                             </label>
                                             <!-- End Option -->
@@ -322,10 +324,10 @@
 
                                     <div class="col-md-6 mb-4">
                                         <label class="required fs-5 fw-bold mb-2" id="reg_country">Country</label>
-                                        <select class="form-select form-select-solid col-md-6" data-control="select2" data-placeholder="India">
-                                            <option value="India">India</option>
-                                            <option value="Afghanistan">Afghanistan</option>
-                                            <option value="Albania">Albania</option>
+                                        <select class="form-select form-select-solid col-md-6" data-control="select2" data-placeholder="India" id="reg_country1">
+                                            <option value="India" name="country1">India</option>
+                                            <option value="Afghanistan" name="country1">Afghanistan</option>
+                                            <option value="Albania" name="country1">Albania</option>
                                             <option value="Algeria">Algeria</option>
                                             <option value="Andorra">Andorra</option>
                                             <option value="Angola">Angola</option>
@@ -527,6 +529,7 @@
 
 
 
+                                </div>
                                 </div>
                                 <!--end::Input group-->
                             </div>
@@ -832,7 +835,8 @@
                     <button type="button" class="btn btn-light btn-active-light-primary" data-kt-stepper-action="previous">Back</button>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-primary" data-kt-stepper-action="next">Continue</button>
+                    <button type="button" class="btn btn-primary" id="btn_Continue" data-kt-stepper-action="next">Continue</button>
+                    
                 </div>
             </div>
         </div>
@@ -878,7 +882,8 @@
         </table>
     </div>
     <%--end already registered--%>
-    <script src="Patient_registration.js"></script>
+   <%-- <script src="Patient_registration.js"></script>--%>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MainContentFooter" runat="server">
+     <script src="/TTech/Patient_reg/Patient_registration.js"></script>
 </asp:Content>
