@@ -30,7 +30,6 @@ namespace ToothTech.TTech.Patient_reg
                 obj.Parameter("@P_Address", P_Address),
                 obj.Parameter("@Age", Age),
                 obj.Parameter("@Mobile", Mobile),
-
                 obj.Parameter("@Gender", Gender),
                 obj.Parameter("@Marital_Status", Marital_Status),
                 obj.Parameter("@Country", Country));

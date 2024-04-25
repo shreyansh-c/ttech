@@ -100,12 +100,15 @@ $(document).ready(function () {
                 'Patient_Name1': {
                     validators: {
                         notEmpty: {
-                            message: 'Plese Enter Patient Name!'
-                        }
+                            message: "Please Enter Patient's Name"
+                        },
+                        stringLength: {
+                            min: 3,
+                            message: "Name should be of 3 or more characters"
+                        },
                         
-
                     }
-                   
+                    
                 },
                 'Patient_Age1': {
                     validators: {

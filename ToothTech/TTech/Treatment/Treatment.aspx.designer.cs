@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ToothTech.TTech.Patient_asses
+namespace ToothTech.TTech.Treatment
 {
 
 
-    public partial class WebForm2
+    public partial class Treatment
     {
     }
 }

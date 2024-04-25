@@ -2392,14 +2392,11 @@
     <Content Include="TTech\Login.aspx" />
     <Content Include="TTech\Patient_asses\Patient_asses.aspx" />
     <Content Include="TTech\Patient_asses\Patient_asses.js" />
-    <Content Include="TTech\Patient_asses\Tooth.aspx" />
-    <Content Include="TTech\Patient_asses\tooth.html" />
-    <Content Include="TTech\Patient_asses\Tooth.js" />
-    <Content Include="TTech\Patient_asses\card.aspx" />
-    <Content Include="TTech\Patient_reg\HtmlPage1.html" />
     <Content Include="TTech\Patient_reg\Patient_registration.asmx" />
     <Content Include="TTech\Patient_reg\Patient_registration.aspx" />
     <Content Include="TTech\Patient_reg\Patient_registration.js" />
+    <Content Include="TTech\Treatment\Treatment.aspx" />
+    <Content Include="TTech\Treatment\treatment.js" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -2735,20 +2732,6 @@
     <Compile Include="TTech\Patient_asses\Patient_asses.aspx.designer.cs">
       <DependentUpon>Patient_asses.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TTech\Patient_asses\Tooth.aspx.cs">
-      <DependentUpon>Tooth.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TTech\Patient_asses\Tooth.aspx.designer.cs">
-      <DependentUpon>Tooth.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TTech\Patient_asses\card.aspx.cs">
-      <DependentUpon>card.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TTech\Patient_asses\card.aspx.designer.cs">
-      <DependentUpon>card.aspx</DependentUpon>
-    </Compile>
     <Compile Include="TTech\Patient_reg\Patient_registration.asmx.cs">
       <DependentUpon>Patient_registration.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -2759,6 +2742,13 @@
     </Compile>
     <Compile Include="TTech\Patient_reg\Patient_registration.aspx.designer.cs">
       <DependentUpon>Patient_registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TTech\Treatment\Treatment.aspx.cs">
+      <DependentUpon>Treatment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TTech\Treatment\Treatment.aspx.designer.cs">
+      <DependentUpon>Treatment.aspx</DependentUpon>
     </Compile>
     <Compile Include="TTech\TTech.Master.cs">
       <DependentUpon>TTech.Master</DependentUpon>
